@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap');
+:root{
+    --text-color: #333333;
+    --font-text-inc : 'Inconsolata', monospace;
+    --font-text-mon : 'Montserrat', sans-serif;
+    --font-text-spa : 'Space Mono', monospace;
+}
+.title-page{
+    font-family: var(--font-text-inc);
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    color: var(--text-color);
+}
+.title-article{
+    font-family: var(--font-text-spa);
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: var(--text-color);
+}
+.text-info{
+    font-family: var(--font-text-spa);
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+input{
+    font-family: var(--font-text-spa);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+}
+.text-footer{
+    font-family: var(--font-text-mon);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+}
+.figure-section img{
+    width: 20rem;
+	margin-top: 3rem;
+}
+.section-err{
+    display: flex;
+    flex-direction: column;
+}
+.button-back{
+    background: var(--text-color);
+}
+.figure-section{
+    text-align: center;
+}
+
+/* tabletas */
+@media (min-width: 768px) {
+    .section-err{
+        flex-direction: row;
+    }
+}
+
+/* escritorio normales */
+@media (min-width: 992px) {
+}
+
+/* pantallas grandes */
+@media (min-width: 1200px) {
+}
